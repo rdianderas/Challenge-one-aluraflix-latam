@@ -1,0 +1,18 @@
+.btn
+{
+    display: inline-block;
+    color: #F5F5F5;
+    background-color: #000000;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    font-size: 21px;
+    font-weight: 600;
+    width: 180px;
+    height: 54px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}

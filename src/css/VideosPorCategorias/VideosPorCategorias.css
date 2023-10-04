@@ -1,0 +1,47 @@
+.categoriaContenedor{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.listaCategorias{
+    background-color: #000000;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.tituloCategoria{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.nombreCategorias{
+    color: #F5F5F5;
+    font-size: 35px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.descripcionCategoria{
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.listaVideosCategorias{
+    display:flex;
+    gap: 20px;
+    padding: 10px 0px;
+    overflow-x: auto;
+}
+
+.listaVideosCategorias::-webkit-scrollbar{
+    width: 5px;
+}
+
+.listaVideosCategorias::-webkit-scrollbar-thumb{
+    background: #2A7Ae4;
+}
